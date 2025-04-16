@@ -1,5 +1,5 @@
 class log {
-    static pixel(message) {
+    static spider(message) {
       console.log(`\x1b[35m[LEXIA]\x1b[0m ${message}`); 
     }
   
