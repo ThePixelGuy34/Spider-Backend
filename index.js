@@ -57,16 +57,16 @@ function connectDB() {
 }
 
 app.get('/', (req, res) => {
-    "<h1>Pixel Backend</h1>"
+    "<h1>Spider Backend</h1>"
 })
 
 function start() {
     app.listen(PORT, () => {
-        log.lexia(`Pixel is running on port: ${PORT}`);
-        log.warn(`Backend is in BETA, if you find bugs report them in issues. git: https://github.com/pixelspiderblack/Pixel-Backend`)
+        log.spider(`Spider is running on port: ${PORT}`);
+        log.warn(`Backend is in BETA, if you find bugs report them in issues. git: https://github.com/ThePixelGuy34/Spider-Backend`)
     });
     if (process.env.DISABLE_BOT === "true") {
-        log.lexia("Bot is disabled to enable it please change it to true in the .env");
+        log.spider("Bot is disabled to enable it please change it to true in the .env");
     } else {
         require("./src/bot/bot.js");
     }
