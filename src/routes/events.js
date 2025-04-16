@@ -11,7 +11,7 @@ app.get('/api/v1/events/:gameId/download/:accountId', (req, res) => {
     const events = require("../responses/events.json");
     events.player = {
         gameId: "Fortnite",
-        accountId: "pixel",
+        accountId: "spider",
         groupIdentity: {},
         pendingPayouts: [],
         pendingPenalties: {},
