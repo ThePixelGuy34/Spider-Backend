@@ -9,7 +9,7 @@ dotenv.config();
 module.exports = {
     commandInfo: {
         name: "register",
-        description: "Creates an account on Pixel backend.",
+        description: "Creates an account on Spider backend.",
         options: [
             {
                 name: "username",
@@ -41,15 +41,15 @@ module.exports = {
         functions.createAccount(username, email, password, discordId);
         const embed = new MessageEmbed()
 	        .setColor(0x0099FF)
-	        .setTitle('Welcome to Pixel,', + username + '!')
-	        .setAuthor({ name: 'Pixel Backend', iconURL: , url: '' })
+	        .setTitle('Welcome to Spider,', + username + '!')
+	        .setAuthor({ name: 'Spider Backend', iconURL: , url: '' })
 	        .setDescription('This backend is in beta, if you find any bugs please report them in the issues section of the github page.')
 	        .addFields(
 		        { name: 'Username', value: username },
 		        { name: 'email', value: email, inline: true },
 	        )
 	        .setTimestamp()
-	        .setFooter({ text: 'Pixel Backend', iconURL: '' });
+	        .setFooter({ text: 'Spider Backend', iconURL: '' });
 
         interaction.editReply({ content: 'Successfully created your account!', embeds: [embed], ephemeral: true });
     }
