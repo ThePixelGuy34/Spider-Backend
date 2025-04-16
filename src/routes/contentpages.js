@@ -13,7 +13,7 @@ app.get('/content/api/pages/fortnite-game', (req, res) => {
               {
                 hidden: process.env.emergency_notice_hidden || false,
                 _type: "CommonUI Simple Message Base",
-                title: process.env.emergency_notice_title || "Pixel Backend!",
+                title: process.env.emergency_notice_title || "Spider Backend!",
                 body: process.env.emergency_notice_body || "Enjoy OG Fortnite!",
                 spotlight: true
               }
