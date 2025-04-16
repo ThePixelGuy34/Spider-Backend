@@ -2,7 +2,7 @@
     "events": [
         {
             "gameId": "Fortnite",
-            "eventId": "PixelEvent",
+            "eventId": "SpiderEvent",
             "regions": [
                 "EU"
             ],
@@ -18,7 +18,7 @@
                 "Windows"
             ],
             "platformMappings": {},
-            "displayDataId": "PixelEvent",
+            "displayDataId": "SpiderEvent",
             "eventGroup": "",
             "announcementTime": "2019-01-29T08:00:00.000Z",
             "appId": null,
@@ -28,8 +28,8 @@
             },
             "eventWindows": [
                 {
-                    "eventWindowId": "Event_PixelBackend1",
-                    "eventTemplateId": "Event_PixelBackend",
+                    "eventWindowId": "Event_SpiderBackend1",
+                    "eventTemplateId": "Event_SpiderBackend",
                     "countdownBeginTime": "2021-01-01T01:00:00.000Z",
                     "beginTime": "2021-01-01T01:00:00.000Z",
                     "endTime": "9999-01-01T01:00:00.000Z",
@@ -73,7 +73,7 @@
     "templates": [
         {
             "gameId": "Fortnite",
-            "eventTemplateId": "Event_PixelBackend",
+            "eventTemplateId": "Event_SpiderBackend",
             "playlistId": "Playlist_DefaultSolo",
             "matchCap": 0,
             "liveSessionAttributes": [],
