@@ -1,5 +1,5 @@
 {
-  "name": "pixel-backend-main",
+  "name": "spider-backend-main",
   "type": "commonjs",
   "dependencies": {
     "discord.js": "^13.7.0",
@@ -9,6 +9,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixelspiderblack/Pixel-Backend"
+    "url": "https://github.com/ThePixelGuy34/Spider-Backend"
   }
 }
