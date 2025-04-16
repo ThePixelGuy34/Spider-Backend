@@ -32,7 +32,7 @@ app.get("/account/api/public/account", (req, res) => {
 });
 app.get('/account/api/public/account/:accountId', async (req, res) => {
     res.status(200).send({
-        id: "lexia", // account id of the player
+        id: "spider", // account id of the player
         displayName: "spiderbackend",
         name: "spiderbackend",
         email: "spider@services.com",
