@@ -24,7 +24,7 @@ app.get("/account/api/public/account", (req, res) => {
         res.status(200).send({
             id: "fortnite",
             displayName: "pixel",
-            email: "pixel@services.com"
+            email: "spider@services.com"
         });
     } catch {
         res.status(400).send({ error: "IDK ERRORED." });
@@ -33,9 +33,9 @@ app.get("/account/api/public/account", (req, res) => {
 app.get('/account/api/public/account/:accountId', async (req, res) => {
     res.status(200).send({
         id: "lexia", // account id of the player
-        displayName: "pixelbackend",
-        name: "pixelbackend",
-        email: "pixel@services.com",
+        displayName: "spiderbackend",
+        name: "spiderbackend",
+        email: "spider@services.com",
         failedLoginAttempts: 0,
         lastLogin: "Timestamp",
         numberOfDisplayNameChanges: 0,
