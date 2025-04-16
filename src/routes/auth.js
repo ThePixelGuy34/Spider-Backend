@@ -14,7 +14,7 @@ app.post("/account/api/oauth/token", (req, res) => {
         client_id: "fortnite",
         internal_client: true,
         client_service: "fortnite",
-        displayName: "lexia",
+        displayName: "spider",
         app: "fortnite",
         in_app_id: "fortnite",
         device_id: "fortnite"
@@ -33,7 +33,7 @@ app.post("/account/api/oauth/verify", (req, res) => {
         client_id: "fortnite",
         internal_client: true,
         client_service: "fortnite",
-        displayName: "lexia",
+        displayName: "spider",
         app: "fortnite",
         in_app_id: "fortnite",
         device_id: "fortnite"
@@ -49,8 +49,8 @@ app.delete("/account/api/oauth/sessions/kill/:token", (req, res) => {
 app.get("/account/api/public/account/fortnite", (req, res) => {
     res.status(200).send({
         id: "fortnite",
-        displayName: "lexia",
-        email: "lexia@services.com"
+        displayName: "spider",
+        email: "spider@services.com"
     });
 });
 app.post("/fortnite/api/game/v2/tryPlayOnPlatform/account/:accountId", (req, res) => {
